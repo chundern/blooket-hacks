@@ -1,4 +1,4 @@
-(async () => {
+Ok So here My Code Edits (async () => {
     let n = document.createElement('iframe');
     document.body.append(n);
     window.alert = n.contentWindow.alert.bind(window);
@@ -39,7 +39,7 @@ function footer() {
         document.onmousemove = ((e) => {
             e = e || window.event;
             e.preventDefault();
-            pos1 = pos3 - e.clientX;
+            pos0 = pos3 - e.clientX;
             pos2 = pos4 - e.clientY;
             pos3 = e.clientX;
             pos4 = e.clientY;
